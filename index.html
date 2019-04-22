@@ -16,11 +16,12 @@
             </header>
             <!-- MAIN -->
             <h2 class="contact">Contact</h2>
-            <form id="contactform" method="POST">
-                <input type="text" placeholder="Your name">
-                <input type="email" placeholder="Your email">
-                <textarea placeholder="Your message"></textarea>
+            <form id="contactform" action="//formspree.io/niki.jiandani@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="_replyto" placeholder="Your email">
+                <textarea name="message" placeholder="Your message"></textarea>
                 <input type="submit" value="Send">
+                <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
             </form>
         </div>
         <!-- NAVBAR -->
