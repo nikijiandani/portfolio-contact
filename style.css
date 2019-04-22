@@ -64,8 +64,10 @@
   border: none;
 }
 #pipe {
-	font-size: 36px;
-	padding-top: 4px;
+	height: 32px;
+	width: 3px;
+	background-color: #FFFFFF;
+	margin-top: 3px;
 }
 input {
   width: 100%;
