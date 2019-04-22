@@ -16,12 +16,16 @@
             </header>
             <!-- MAIN -->
             <h2 class="contact">Contact</h2>
-            <form id="contactform" action="//formspree.io/niki.jiandani@gmail.com" method="POST">
-                <input type="text" name="name" placeholder="Your name">
-                <input type="email" name="_replyto" placeholder="Your email">
-                <textarea name="message" placeholder="Your message"></textarea>
-                <input type="submit" value="Send">
-                <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+            <form id="contactform" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Your name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" placeholder="Your email">
+                <input type="text" name="_gotcha" style="display:none" />
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" placeholder="Your message"></textarea>
+                <input type="submit" id="send" value="Send">
+                <input type="hidden" name="_subject" value="Portfolio Website contact" />
             </form>
         </div>
         <!-- NAVBAR -->
@@ -30,5 +34,9 @@
             <p class="tab" id="pipe">|</p>
             <a href="https://nikijiandani.github.io/portfolio-projects/" class="tab">Projects</a>
         </nav>
+        <script>
+            var contactform =  document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'niki.jiandani' + '@' + 'gmail' + '.' + 'com');
+        </script>
     </body>
 </html>
