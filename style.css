@@ -24,7 +24,7 @@ body {
   margin: 24px 0 16px 0;
 }
 .navbar {
-	height: 39px;
+	height: 2.437em;               /* 39/16 */
 	width: 100%;
   background-color: #248700;
   bottom: 0;
@@ -55,14 +55,14 @@ body {
   border: none;
 }
 #pipe {
-	height: 32px;
+	height: 1.85em;
 	width: 0.165em;               
 	background-color: #FFFFFF;
-	margin-top: 3px;
+	margin-top: 1px;
 }
 input {
   width: 100%;
-  height: 39px;
+  height: 2.4375em;                  /* 39/16 */
   margin: 4px 0;
   border: 1px solid #000000;
   border-radius: 5px;
@@ -72,7 +72,7 @@ input {
 }
 textarea {
   width: 100%;
-  height: 100px;
+  height: 6.25em;                /* 100/16 */
   margin-top: 4px;
   border: 1px solid #000000;
   border-radius: 5px;
@@ -90,7 +90,7 @@ textarea {
     margin-bottom: 200px;
   }
   textarea {
-    height: 150px;
+    height: 9.375em;             /* 150/16 */
   }
   #send {
     width: 40%;
@@ -110,7 +110,7 @@ textarea {
 		margin-top: 40px;
 	}
   .navbar {
-		height: 90px;
+		height: 5.625em;                /* 90/16 */
 		justify-content: flex-start;
 		align-items: center;
 	}
@@ -121,8 +121,8 @@ textarea {
 		margin-left: 32px;
 	}
 	#pipe {
-		height: 63px;
-		width: 0.18em;
+		height: 1.8em;
+		width: 0.15em;
 	}
 }
 /* LAPTOP */
