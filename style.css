@@ -131,3 +131,9 @@ textarea {
 		width: 5px;
 	}
 }
+/* LAPTOP */
+@media (min-width: 1024px){
+  form {
+    width: 50%;
+  }
+}
