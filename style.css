@@ -19,7 +19,7 @@ body {
   color: #248700;
   font-family: "Patua One";
   font-size: 1.25em;             /* 20/16 */
-  margin: 1.2em 0 0.8em 0;         /* 24 */ /* 16 */
+  margin: 1.2em 0 0.8em 0;       /* 24 */ /* 16 */
 }
 .navbar {
 	height: 2.437em;               /* 39/16 */
@@ -34,8 +34,7 @@ body {
 .navbar a {
   display: inline-block;
   text-decoration: none;
-  padding-top: 7px;
-  padding-bottom: 8px;
+  padding: 0.35em 0 0.4em;     /* 7/20 */ /* 8/20 */           
 }
 .tab {
 	color: #FFFFFF;
@@ -63,8 +62,8 @@ input {
   height: 2.4375em;              /* 39/16 */
   margin: 0.25em 0;              /* 4 */
   border: 1px solid #000000;
-  border-radius: 5px;
-  padding: 3px;
+  border-radius: 0.3125em;       /* 5 */
+  padding: 0.1875em;             /* 3 */
   font-family: "Patua One";
   font-size: 1em;                /* 16/16 */
 }
@@ -73,8 +72,8 @@ textarea {
   height: 6.25em;                /* 100/16 */
   margin-top: 0.25em;            /* 4 */
   border: 1px solid #000000;
-  border-radius: 5px;
-  padding: 3px;
+  border-radius: 0.3125em;       /* 5 */
+  padding: 0.1875em;             /* 3 */
   font-family: "Patua One";
   font-size: 1em;                /* 16/16 */
 }
