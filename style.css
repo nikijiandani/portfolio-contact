@@ -5,6 +5,9 @@
 body {
   font-size: 100%;
 }
+form {
+  margin-bottom: 7em;
+}
 .container {
   margin: 0 1.375em 0 1.125em;     /* 22 */ /* 18 */
 }
