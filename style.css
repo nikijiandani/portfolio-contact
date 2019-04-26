@@ -12,7 +12,6 @@ body {
   color: #000000;
   font-family: "Patua One";
   font-size: 2em;               /* 32/16 */
-  letter-spacing: 0.2px;
   line-height: 1.125em;         /* 36 */
   margin-top: 0.75em;          /* 24 */
 }
@@ -20,7 +19,6 @@ body {
   color: #248700;
   font-family: "Patua One";
   font-size: 1.25em;             /* 20/16 */
-  letter-spacing: 0.25px;
   margin: 1.2em 0 0.8em 0;         /* 24 */ /* 16 */
 }
 .navbar {
@@ -43,14 +41,14 @@ body {
 	color: #FFFFFF;
 	font-family: "Patua One";
 	font-size: 1.25em;             /* 20/16 */
-	letter-spacing: 0.25px;
+	letter-spacing: 0.0125em;      /* 0.25 */
   line-height: 1.2em;            /* 24 */
 }
 #send {
   background-color: #248700;
   color: #FFFFFF;
   font-size: 1.125em;            /* 18/16 */
-  letter-spacing: 1px;
+  letter-spacing: 0.0555em;      /* 1 */
   font-family: "Patua One";
   border: none;
 }
@@ -85,7 +83,7 @@ textarea {
 	form {
 		width: 80%;
 		font-size: 1.125em;          /* 18/16 */
-		letter-spacing: 0.45px;
+		letter-spacing: 0.025em;     /* 0.45 */
     line-height: 1.222em;        /* 22 */
     margin-bottom: 11.1111em;      /* 200 */
   }
@@ -100,12 +98,11 @@ textarea {
 @media(min-width: 768px){
   .nikita-jiandani-copy-3 {
 		font-size: 3.75em;           /* 60/16 */
-		letter-spacing: 0.38px;
 		line-height: 1em;            /* 60 */
 	}
 	.contact {
 		font-size: 2.25em;           /* 36/16 */
-		letter-spacing: 0.45px;
+		letter-spacing: 0.0125em;    /* 0.45 */
 		line-height: 1.222em;        /* 44 */
 		margin-top: 1.111em;         /* 40 */
 	}
@@ -116,7 +113,7 @@ textarea {
 	}
 	.tab {
 		font-size: 2.25em;           /* 36/16 */
-		letter-spacing: 0.45px;      
+		letter-spacing: 0.0125em;    /* 0.45 */      
 		line-height: 1.222em;        /* 44 */
 		margin-left: 0.888em;        /* 32 */
 	}
