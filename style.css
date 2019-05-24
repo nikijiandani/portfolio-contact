@@ -8,6 +8,9 @@ body {
 form {
   margin-bottom: 7em;
 }
+form span {
+  color: red;
+}
 .container {
   margin: 0 1.375em 0 1.125em;     /* 22 */ /* 18 */
 }
