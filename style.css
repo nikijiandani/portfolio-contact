@@ -28,7 +28,7 @@ form span {
   margin: 1.2em 0 0.8em 0;       /* 24 */ /* 16 */
 }
 .navbar {
-	height: 2.437em;               /* 39/16 */
+	height: 2.43875em;               /* 39/16 */
 	width: 100%;
   background-color: #248700;
   bottom: 0;
@@ -120,7 +120,7 @@ textarea {
 		font-size: 2.25em;           /* 36/16 */
 		letter-spacing: 0.0125em;    /* 0.45 */      
 		line-height: 1.222em;        /* 44 */
-		margin-left: 0.888em;        /* 32 */
+		margin-left: 0.888888em;     /* 32 */
 	}
 	#pipe {
 		height: 1.8em;
