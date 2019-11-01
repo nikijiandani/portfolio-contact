@@ -1,42 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Lato|Patua+One" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <!-- WELCOME SECTION -->
-            <header>
-            <h1 class="nikita-jiandani-copy-3">Nikita<br/>Jiandani</h1>
-            </header>
-            <!-- MAIN -->
-            <h2 class="contact">Contact</h2>
-            <form id="contactform" method="POST">
-                <label for="name">Name:</label><span>*</span>
-                <input type="text" name="name" id="name" placeholder="Your name" required>
-                <label for="email">Email:</label><span>*</span>
-                <input type="email" id="email" name="_replyto" placeholder="Your email" required>
-                <input type="text" name="_gotcha" style="display:none" />
-                <label for="message">Message:</label><span>*</span>
-                <textarea name="message" id="message" placeholder="Your message" required></textarea>
-                <input type="submit" id="send" value="Send">
-                <input type="hidden" name="_subject" value="Portfolio Website contact" />
-            </form>
-        </div>
-        <!-- NAVBAR -->
-        <nav class="navbar">
-            <a href="https://nikijiandani.github.io/portfolio-projects/" class="tab">Projects</a>            
-            <div class="tab" id="pipe"></div>
-            <a href="https://nikijiandani.github.io/" class="tab">About me</a>
-        </nav>
-        <script>
-            var contactform =  document.getElementById('contactform');
-            contactform.setAttribute('action', '//formspree.io/' + 'niki.jiandani' + '@' + 'gmail' + '.' + 'com');
-        </script>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Patua+One"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- WELCOME SECTION -->
+      <header>
+        <h1 class="nikita-jiandani-copy-3">Nikita<br />Jiandani</h1>
+      </header>
+      <!-- MAIN -->
+      <h2 class="contact">Contact</h2>
+      <form id="contactform" method="POST">
+        <label for="name">Name:</label><span>*</span>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your name"
+          required
+        />
+        <label for="email">Email:</label><span>*</span>
+        <input
+          type="email"
+          id="email"
+          name="_replyto"
+          placeholder="Your email"
+          required
+        />
+        <input type="text" name="_gotcha" style="display:none" />
+        <label for="message">Message:</label><span>*</span>
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Your message"
+          required
+        ></textarea>
+        <input type="submit" id="send" value="Send" />
+        <input
+          type="hidden"
+          name="_subject"
+          value="Portfolio Website contact"
+        />
+      </form>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="https://nikijiandani.github.io/portfolio-projects/" class="tab"
+        >Projects</a
+      >
+      <div class="tab" id="pipe"></div>
+      <a href="https://nikijiandani.github.io/" class="tab">About me</a>
+    </nav>
+    <script>
+      var contactform = document.getElementById('contactform');
+      contactform.setAttribute(
+        'action',
+        '//formspree.io/' + 'niki.jiandani' + '@' + 'gmail' + '.' + 'com'
+      );
+    </script>
+  </body>
 </html>
